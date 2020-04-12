@@ -357,12 +357,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a1e17', end
 }
 /** Feeds **/
 @media (min-width: 768px) {
-	.feeds {
-	    display: flex;
-	    justify-content: space-around;
-	}
+    .feeds {
+        display: flex;
+        justify-content: space-around;
+    }
 }
-
 /** Video **/
 .video {
     text-align: center;
@@ -382,6 +381,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a1e17', end
 }
 .video h2 a:hover {
     font-weight: 700;
+}
+.video iframe {
+    width: 100%;
 }
 /** Twitter **/
 .twitter {
