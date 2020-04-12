@@ -356,10 +356,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a1e17', end
     }
 }
 /** Feeds **/
-.feeds {
-    display: flex;
-    justify-content: space-around;
+@media (min-width: 768px) {
+	.feeds {
+	    display: flex;
+	    justify-content: space-around;
+	}
 }
+
 /** Video **/
 .video {
     text-align: center;
